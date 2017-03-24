@@ -1,0 +1,45 @@
+.title{
+	text-align: center;
+}
+
+.container{
+	margin-left: 20px;
+	margin-right: 20px
+}
+
+.item{
+	display: inline-block;
+	margin: 12px;
+	border: 2px solid;
+	background-color: #bbe7f5;
+}
+
+.item p {
+	margin-top: -1px;
+	padding: 25px 25px 5px 25px;
+}
+
+.item-title {
+	float: right;
+	border: 2px solid;
+	padding: 8px;
+	margin: -2px;
+	width: 30%;
+  text-align: center;
+  font-weight: 600;
+  background-color: #f59d71;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3{
+  	width: 33%;
+  	display: inline-block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2{
+		width: 49.7%;
+		display: inline-block;
+	}
+}
